@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95602988729dc492bb194cd2808f5ddf, type: 3}
+  m_Name: ClassicSlotConfig
+  m_EditorClassIdentifier: SlotGame.Runtime::SlotGame.SlotConfig
+  symbols:
+  - name: A
+    sprite: {fileID: 21300000, guid: 077586655d0434c5a9bf46c91e251ed3, type: 3}
+    blur: {fileID: 21300000, guid: 604054cf345404fc7a8e2d508d4b6d51, type: 3}
+    wildSubstitute: 1
+  - name: J
+    sprite: {fileID: 21300000, guid: b23a889d286a34f7fa50cf51b990e81a, type: 3}
+    blur: {fileID: 21300000, guid: 31029e71ce0974136a3f7065eecfe764, type: 3}
+    wildSubstitute: 1
+  - name: K
+    sprite: {fileID: 21300000, guid: 15fe65e92ae924b199ebe61bd57bd82c, type: 3}
+    blur: {fileID: 21300000, guid: 3ef30f4a3233946d1970c450886605a4, type: 3}
+    wildSubstitute: 1
+  - name: Q
+    sprite: {fileID: 21300000, guid: bf9633d9f844e49edb01834c454edfe4, type: 3}
+    blur: {fileID: 21300000, guid: 23f9970df880249be9690f9ec41d95dd, type: 3}
+    wildSubstitute: 1
+  - name: 10
+    sprite: {fileID: 21300000, guid: 3a5c31c1f336840c58ae917872f5b4ed, type: 3}
+    blur: {fileID: 21300000, guid: 4cb134ac7728a48f3bd51b2018dbac1d, type: 3}
+    wildSubstitute: 1
+  - name: 7
+    sprite: {fileID: 21300000, guid: 2fd8dc729e07946cabec4a4894c2f883, type: 3}
+    blur: {fileID: 21300000, guid: 2a420b586cad14e93b480d7a7da89c80, type: 3}
+    wildSubstitute: 1
+  - name: 1Bar
+    sprite: {fileID: 21300000, guid: 0689397a9c9f54cfe863c018b1f4f3d5, type: 3}
+    blur: {fileID: 21300000, guid: 11be09bb5613e4699840e49d64a0d008, type: 3}
+    wildSubstitute: 1
+  - name: 2Bar
+    sprite: {fileID: 21300000, guid: ff1a540f6df7146629200aa6f1bad1a6, type: 3}
+    blur: {fileID: 21300000, guid: 3e58de47c32844aab996ca32bb247c3c, type: 3}
+    wildSubstitute: 1
+  - name: 3Bar
+    sprite: {fileID: 21300000, guid: 7cbf35151a1d64673815e18ef4425681, type: 3}
+    blur: {fileID: 21300000, guid: 858d504b5b5f54422bd49eb7dacdf5e7, type: 3}
+    wildSubstitute: 1
+  - name: Bell
+    sprite: {fileID: 21300000, guid: 85eddcbb4fe3f40069db5c4bb97900fb, type: 3}
+    blur: {fileID: 21300000, guid: a64f06375dfe3451980f511c5029fed7, type: 3}
+    wildSubstitute: 1
+  - name: FreeSpin
+    sprite: {fileID: 21300000, guid: 05db542f2c0f34eae9866b9a230f9129, type: 3}
+    blur: {fileID: 21300000, guid: fc10178a6aff1480ba12d00a57d51c31, type: 3}
+    wildSubstitute: 0
+  - name: Scatter
+    sprite: {fileID: 21300000, guid: 90e7133ace504432d99dacb7948350fc, type: 3}
+    blur: {fileID: 21300000, guid: 1e09b93562b014a07bbf270917ea209e, type: 3}
+    wildSubstitute: 0
+  - name: Wild
+    sprite: {fileID: 21300000, guid: deacc447cb6034623982075ad2d8da89, type: 3}
+    blur: {fileID: 21300000, guid: 2c5fed9b7100a47e3af355e43426397a, type: 3}
+    wildSubstitute: 0
+  - name: Jackpot
+    sprite: {fileID: 21300000, guid: 1b539a27541274c1885937022cbb1fa6, type: 3}
+    blur: {fileID: 21300000, guid: 0bdaec8d2e3e74476b2f8e842e2b3a31, type: 3}
+    wildSubstitute: 0
+  scatterId: 11
+  wildId: 12
+  useWild: 1
+  useScatter: 1
+  wildInFirstPosition: 0
+  reels:
+  - order: 000000000a000000010000000c00000002000000030000000400000006000000050000000700000008000000090000000b000000040000000d00000009000000
+    spinStartDelay: 0.1
+    laps: 3
+    randomStart: 1
+  - order: 000000000d0000000100000002000000030000000a0000000400000006000000050000000800000009000000070000000b000000040000000c0000000500000008000000
+    spinStartDelay: 0.2
+    laps: 3
+    randomStart: 1
+  - order: 00000000010000000d00000002000000080000000300000004000000060000000500000007000000090000000b0000000c000000090000000a00000004000000
+    spinStartDelay: 0.3
+    laps: 3
+    randomStart: 1
+  - order: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000d0000000c0000000d0000000500000009000000040000000c000000
+    spinStartDelay: 0.3
+    laps: 3
+    randomStart: 1
+  - order: 0000000001000000020000000300000004000000050000000c000000060000000700000008000000090000000a0000000b0000000c0000000d000000050000000d000000090000000c00000009000000
+    spinStartDelay: 0.4
+    laps: 3
+    randomStart: 1
+  tilesPerReel: 30
+  payTable:
+  - symbols: 000000000000000000000000ffffffffffffffff
+    pay: 5
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 00000000000000000000000000000000ffffffff
+    pay: 25
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0000000000000000000000000000000000000000
+    pay: 50
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 010000000100000001000000ffffffffffffffff
+    pay: 10
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 01000000010000000100000001000000ffffffff
+    pay: 35
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0100000001000000010000000100000001000000
+    pay: 75
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 020000000200000002000000ffffffffffffffff
+    pay: 15
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 02000000020000000200000002000000ffffffff
+    pay: 50
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0200000002000000020000000200000002000000
+    pay: 80
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 030000000300000003000000ffffffffffffffff
+    pay: 25
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 03000000030000000300000003000000ffffffff
+    pay: 50
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0300000003000000030000000300000003000000
+    pay: 120
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 040000000400000004000000ffffffffffffffff
+    pay: 25
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 04000000040000000400000004000000ffffffff
+    pay: 50
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0400000004000000040000000400000004000000
+    pay: 130
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 050000000500000005000000ffffffffffffffff
+    pay: 35
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 05000000050000000500000005000000ffffffff
+    pay: 60
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0500000005000000050000000500000005000000
+    pay: 140
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 060000000600000006000000ffffffffffffffff
+    pay: 35
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 06000000060000000600000006000000ffffffff
+    pay: 65
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0600000006000000060000000600000006000000
+    pay: 145
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 070000000700000007000000ffffffffffffffff
+    pay: 40
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 07000000070000000700000007000000ffffffff
+    pay: 70
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0700000007000000070000000700000007000000
+    pay: 150
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 080000000800000008000000ffffffffffffffff
+    pay: 70
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 08000000080000000800000008000000ffffffff
+    pay: 100
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0800000008000000080000000800000008000000
+    pay: 160
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 090000000900000009000000ffffffffffffffff
+    pay: 70
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 09000000090000000900000009000000ffffffff
+    pay: 120
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0900000009000000090000000900000009000000
+    pay: 200
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0a0000000a0000000a0000000a0000000a000000
+    pay: 0
+    freeSpins: 10
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0c0000000c0000000c0000000c0000000c000000
+    pay: 500
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  scatterPayTable:
+  - scattersCount: 5
+    pay: 0
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+    levelProgress: 100
+  inRotTime: 0.15
+  inRotAngle: 7
+  outRotTime: 0.15
+  outRotAngle: 7
+  mainRotateTime: 3
+  mainRotateTimeRandomize: 10
+  startCoins: 500
+  maxLineBet: 20
+  defaultLineBet: 1
+  multiplyWinByLineBet: 1
+  multiplyFreeSpinsByLineBet: 0
+  useHold: 0
+  maxHeldReels: 2
+  holdBetMultipliers: 010000000200000004000000
+  dailyRewards: f4010000e8030000dc050000c4090000a00f00007017000010270000
+  dailyRewardIntervalHours: 24
+  allowDevRefill: 1
+  devRefillCoins: 1000
+  devAddCoins: 5000
+  loseSpinLevelProgress: 0.5
+  winSpinLevelProgress: 2
+  bigWinMinCoins: 5000
+  jackpotSymbolId: 13
+  useMegaJackpot: 1
+  megaJackpotCount: 7
+  megaJackpotStart: 1000
+  jackpotIncrement: 1
